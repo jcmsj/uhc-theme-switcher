@@ -5,6 +5,6 @@ import { loadASAP } from "./matchPreference";
 </script>
 <Switcher {theme} onmount={loadASAP}/>
 <style lang=sass>
+@import "./at-root"
 @import "./scheme"
-@import "./theme"
 </style>
