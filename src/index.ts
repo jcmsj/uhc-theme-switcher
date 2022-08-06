@@ -16,7 +16,8 @@ export function useStorableTheme(key:string, converter:Functor<Maybe<string>, Th
         return false;
     }
     
-    theme.subscribe(sync)
+    /* Syncing must be initiated by user
+     */
     function sync(v:Theme) {
         try {
             localStorage.setItem(key, v)
