@@ -21,6 +21,12 @@ button
     background: none
     border: 2px solid transparent
     cursor: pointer
+    border-radius: 50%
+    width: min-content
+    height: min-content
+    align-self: center
+    padding: 0.5vh 0.5vw
+
     @include dark
         filter: invert(1)
 
