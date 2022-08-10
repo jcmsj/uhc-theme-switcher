@@ -1,11 +1,11 @@
 @mixin scheme($name)
-  :global(:root[data-theme=dark]) &
+  :global(:root[data-theme=$name]) &
     @content
 
 @mixin light()
-  @include scheme(light)
+  :global(:root[data-theme=light]) &
     @content
 
 @mixin dark()
-  @include scheme(dark)
+  :global(:root[data-theme=dark]) &
     @content
