@@ -25,9 +25,6 @@ button
     align-self: center
     aspect-ratio: 1 / 1
 
-    @include dark
-        filter: invert(1)
-
     &:hover
         border-color: black
         transition: border-color 500ms
