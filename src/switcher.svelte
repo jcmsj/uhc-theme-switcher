@@ -22,7 +22,6 @@ button
     border: 2px solid transparent
     cursor: pointer
     border-radius: 50%
-    align-self: center
     aspect-ratio: 1 / 1
 
     &:hover
