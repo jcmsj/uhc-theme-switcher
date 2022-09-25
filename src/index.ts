@@ -28,6 +28,6 @@ export function useStorableTheme(key:string, converter:Functor<Maybe<string>, Th
     return {...theme, load, sync, converter}
 }
 
-export function themeFrom(v:string|null|undefined) {
+export function themeFrom(v:Maybe<string>) {
     return v == Theme.dark ? Theme.dark:Theme.light
 }

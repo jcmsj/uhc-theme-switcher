@@ -17,13 +17,11 @@ onMount(onmount)
 <style lang=sass>
 @import "./scheme"
 button
-    right: 0
     background: none
     border: 2px solid transparent
     cursor: pointer
     border-radius: 50%
     aspect-ratio: 1 / 1
-
     &:hover
         border-color: black
         transition: border-color 500ms
